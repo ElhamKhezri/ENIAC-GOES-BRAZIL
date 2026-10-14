@@ -97,7 +97,7 @@ The strongest revenue comes from the southeast and the east coast of Brazil, led
 
 ---
 
-### 🚚 Delivery is the biggest operational risk
+## 🚚 Delivery is the biggest operational risk
 
 ```text
 Magist        ████████████████████████  12.5 days
@@ -109,37 +109,54 @@ Late deliveries on top of a long delivery time make this the most important risk
 ⚠️ Warning: The Brazilian average of 8 days refers to the Black Friday 2025 period, a peak-load phase. Compare with care.
 🏁 Recommendation
 
-DECISION: PROCEED WITH A 3-YEAR PILOT PARTNERSHIP (CONDITIONAL)
+## DECISION: PROCEED WITH A 3-YEAR PILOT PARTNERSHIP (CONDITIONAL)
+
+## 🏁 Recommendation
+
+<div align="center">
+
+### **DECISION: PROCEED WITH A 3-YEAR PILOT PARTNERSHIP (CONDITIONAL)**
+
+</div>
 
 The final recommendation on the three-year partnership is based on the combined findings across portfolio, sellers, geography and delivery:
-Proceed with a 3-year pilot partnership under strict operational control.
-Set mandatory SLAs: Guaranteed delivery windows (3–7 days) and minimum customer ratings (> 4 stars).
-Smart entry: Start with more affordable product lines before scaling high-end tech.
-🧰 Tech Stack
-Tool	Purpose
-SQL	Data analysis and business questions
-Tableau	Data visualization
-Canva	Final presentation
-GitHub	Documentation and version control
-💾 Data Architecture
+* **Proceed with a 3-year pilot partnership** under strict operational control.
+* **Set mandatory SLAs:** Guaranteed delivery windows (3–7 days) and minimum customer ratings (> 4 stars).
+* **Smart entry:** Start with more affordable product lines before scaling high-end tech.
+
+---
+
+## 🧰 Tech Stack
+
+| Tool | Purpose |
+| :--- | :--- |
+| **SQL** | Data analysis and business questions |
+| **Tableau** | Data visualization |
+| **Canva** | Final presentation |
+| **GitHub** | Documentation and version control |
+
+---
+
+## 💾 Data Architecture
+
 The project uses a fictional dataset based on Magist's e-commerce database:
-Core Entities	
-🛍️ Products	🏷️ Categories
-🧑‍💼 Sellers	👥 Customers
-🧾 Orders	📋 Order items
-💳 Payments	⭐ Reviews
-🌎 Geographical data	
-📁 Repository Structure
+
+| Core Entities | |
+| :--- | :--- |
+| 🛍️ Products | 🏷️ Categories |
+| 🧑‍💼 Sellers | 👥 Customers |
+| 🧾 Orders | 📋 Order items |
+| 💳 Payments | ⭐ Reviews |
+| 🌎 Geographical data | |
+
+---
+
+## 📁 Repository Structure
+
+```text
 📦 eniac-magist
- ┣ 📄 README.md             → Project overview, questions, findings
- ┣ 📄 script.sql            → SQL queries used for the analysis
- ┣ 📊 visualizations.twbx   → Tableau visualizations
- ┗ 📑 presentation.pdf      → Final presentation (PDF export)
+ ┣ 📄 [README.md](README.md)             → Project overview, questions, findings
+ ┣ 📄 [script.sql](script.sql)            → SQL queries used for the analysis
+ ┣ 📊 [visualizations.twbx](visualizations.twbx)   → Tableau visualizations
+ ┗ 📑 [presentation.pdf](presentation.pdf)      → Final presentation (PDF export)
 
-👥 Team
-Member	Role
-👩‍💻 Elham Khezri	Data Analyst
-👨‍💻 Miguel Arcangel Gamardo Linares	Data Analyst
-👨‍💻 Taris Beck	Data Analyst
-
-⭐ If you like this project, leave a star!
